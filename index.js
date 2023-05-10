@@ -1,6 +1,2 @@
 
-// Este es el mensaje de bienvenida
-console.log("Esta es la puerta de entrada al proyecto");
-
-// Esta es la despedida 
-console.log("Hasta luego");
+console.log("Hola, este es mi primer ejercicio con Node en el mejor Bootcamp de programación del mundo")
