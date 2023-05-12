@@ -1,0 +1,63 @@
+Clase 2 = {
+        Primitivos = [
+        Pueden ser numeros, booleanos, strings o datos
+        Numeros (ejemplo) : var a = 1
+        Booleano (ejemplo) : var bool = false
+        Null (ejemplo) : var nul = null
+        Undefined (ejemplo) : var und = undefined
+    ]
+    Objetos = [
+        Pueden ser objetos de tipos, array, arreglos, listas, etc
+    ]
+    Ejemplos practicos = [
+        Number:
+        4;
+
+        String:
+        "Hola mundo";
+        "Hello world";
+
+        Booleanos:
+        true;
+        false;
+
+        Null y Undefined:
+        null; = Valor vacio
+        undefined; = Valor no asignado en memoria
+
+        Null, Undefined, False, 0: ==> Todas falsas
+        console.log(null === undefined) false
+        if (null) {
+            console.log("Cumple")
+        } else {
+            console.log("No cumple")
+        }
+    ]
+
+    Declaracion de variables = [
+        var variable;
+        let variableLet;
+        const constantes;
+
+        var a = 1; (caja en donde se guarda un valor y puede cambiar)
+            console.log(a); = (da como resultado tu valor definido)
+            a = 4; (tu nuevo resultado va a ser 4 porque al ser una variable puede cambiar su valor)
+        
+        const constante = "Hola, soy una constante";
+        constante = "Adios" (Suelta un error porque no se le puede reasignar un valor a una constante)
+
+        let b = 3;
+        console.log(b); = 3
+        b = 5;
+        console.log(b); = 5
+
+        var variable = "Hola, soy una variable VAR"
+        for (var i = 0; i < 3; i++) {
+            var variable = "Soy la segunda variable"
+        }
+        console.log(variable) = "Soy la segunda variable" (¡¡¡MALA PRACTICA PORQUE NO SE DECLARAN 2 VECES LA MISMA VARIABLE!!!)
+
+    ]
+    typeof = Pasa el tipo de la variable o dato usado
+}
+

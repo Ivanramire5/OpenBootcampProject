@@ -1,0 +1,23 @@
+Notacion
+El ; delimita el final de una linea => Ejemplo = {
+    const b = 4;
+}
+
+El . se utiliza en los objetos para acceder a los atributos => Ejemplo = {
+    movil.anchura
+}
+
+Los [] se utilizan para las listas, arreglos o arrays. Ejemplo [1, 2, 3, 4]
+Los () se utilizan para funciones. Ejemplo {
+    function suma(a, b) {
+        // Se escribe la funcion
+    }
+}
+{} Se usan para objetos, funciones y estructuras de control Ejemplo:
+    const movil = {
+        anchura: 5,
+        altura: 10
+    }
+    if (true) {
+        const constante2 = "hola"
+    }

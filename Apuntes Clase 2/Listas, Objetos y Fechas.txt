@@ -1,0 +1,53 @@
+
+Listas, arrays o arreglos:
+Es un conjunto de variables puestas en orden. Ejemplo:
+
+const lista = [1, "hola", true, undefined, null]
+console.log(lista)
+
+const lista2 = new Array(1, "hola", true, undefined, null)
+console.log(lista2)
+
+Se pueden meter listas dentro de otras listas
+
+objetos:
+Los objetos dentro de JS son representaciones de algo en forma de dato
+
+const movil = {
+    altura: 10,
+    anchura: 5,
+    marca: "Motorola",
+    isWhite: false,
+    contactos: ["Rodrigo", "Nico", Sabri"]
+    memoria: {
+        marca: "Sandisk",
+        almacenamiento: 128
+    }
+}
+movil.year = 2019;
+console.log(movil.contactos) = muestra en pantalla los datos del objeto contactos
+console.log(movil.memoria.marca) ==> "Sandisk"
+console.log(movil.year) = 2019: Asi se crea un nuevo atributo en el objeto original
+
+Fechas:
+Librerias de apoyo: Moment.JS
+Definimos las fechas en el codigo:
+
+const ahora = new Date();
+console.log(ahora);
+
+const fecha_milis = new Date(10);
+console.log(fecha_milis)
+
+const fecha_cadena = new Date ("march 25 2020");
+console.log(fecha_cadena)
+
+const fecha_valores = new Date (2022, 2, 15);
+console.log(fecha_valores)
+Los meses funcionan como arrays. Ejemplo => Enero: 0, Febrero: 1, Abril: 3.
+
+
+const dia = ahora.getDate()
+const mes = ahora.getMonth() + 1
+const year = ahora.getFullYear()
+console.log(dia, mes, year)
