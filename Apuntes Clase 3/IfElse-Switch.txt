@@ -1,0 +1,58 @@
+
+Ejemplo de if else con aplicacion de banco:
+
+let saldo = 50;
+let efectivo = 20;
+
+if (efectivo < saldo) {
+    console.log("Podes sacar el dinero")
+}
+
+if (efectivo < saldo) {
+    console.log("Podes sacar el dinero")
+} else {
+    console.log("Saldo insuficiente")
+}
+
+Otro ejemplo:
+
+let nota = 5;
+
+if (nota === 5) {
+    console.log("Felicidades, aprobaste")
+} else if (nota === 4) {
+    console.log("Buen trabajo")
+} else if (nota === 3) {
+    console.log ("Buen trabajo pero deberias mejorar")
+} else if (nota === 2) {
+    console.log("Desaprobaste")
+} else if (nota === 1) {
+    console.log("Estudia para la proxima")
+} else {
+    console.log("Error, introduce una nota del 1 al 5")
+}
+
+Switch. Ejemplo:
+
+let nota = 5;
+
+switch (nota) {
+    case 5: 
+        console.log("Felicidades, aprobaste")
+        break;
+    case 4:
+        console.log("Buen trabajo")
+        break;
+    case 3:
+        console.log("Buen trabajo pero deberias mejorar")
+        break;
+    case 2:
+        console.log("Desaprobaste")
+        break;
+    case 1:
+         console.log("Estudia para la proxima")
+         break;
+        default:
+            console.log("Error")
+        break;
+}

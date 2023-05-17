@@ -1,0 +1,56 @@
+
+
+Igualdades:
+
+
+let a = 5;
+let b = 5;
+
+if (a == b) {
+    console.log("a es igual a b - Debil")
+}
+
+if (a === b) {
+    console.log("a es igual a b - Fuerte")
+}
+
+
+Desigualdades (3 tipos):
+
+
+let c = 4;
+let d = 5;
+
+
+Basica:
+
+if(c != d) {
+    console.log("c es diferente a d - Debil")
+}
+
+if(c !== d) {
+    console.log("c es diferente a d - Fuerte")
+}
+
+
+Comparacion numericas:
+
+
+let max = 10;
+let min = 5;
+
+if (max > min) {
+    console.log("max es mayor que min")
+}
+
+if (max >= 10) {
+    console.log("max es mayor o igual que 10")
+}
+
+if (max < min) {
+    console.log("max es menor que min")
+}
+
+if (max <= min) {
+    console.log("max es menor o igual que min")
+}

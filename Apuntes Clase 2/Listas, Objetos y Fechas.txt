@@ -1,6 +1,8 @@
 
-Listas, arrays o arreglos:
-Es un conjunto de variables puestas en orden. Ejemplo:
+Listas, arrays o arreglos
+
+Listas: Es un conjunto de variables puestas en orden. 
+Ejemplo:
 
 const lista = [1, "hola", true, undefined, null]
 console.log(lista)
@@ -8,7 +10,8 @@ console.log(lista)
 const lista2 = new Array(1, "hola", true, undefined, null)
 console.log(lista2)
 
-Se pueden meter listas dentro de otras listas
+// Se pueden meter listas dentro de otras listas
+
 
 objetos:
 Los objetos dentro de JS son representaciones de algo en forma de dato
@@ -28,6 +31,7 @@ movil.year = 2019;
 console.log(movil.contactos) = muestra en pantalla los datos del objeto contactos
 console.log(movil.memoria.marca) ==> "Sandisk"
 console.log(movil.year) = 2019: Asi se crea un nuevo atributo en el objeto original
+
 
 Fechas:
 Librerias de apoyo: Moment.JS

@@ -1,0 +1,74 @@
+
+Bucles For: Se declararan de esta manera:
+    for (inicializacion; condicion; actualizacion) {
+        // Esto es el bucle
+    }
+
+Ejemplo practico:
+
+for (let i = 0; i < 10; i++) {
+    console.log(i) // 0, 1, 2, 3, 4, 5, 6, 7, 8, 9
+}
+
+Otro ejemplo:
+
+let lista = [1, 4, 6, 2, 3]
+for (let i = 0; i < lista.length; i++) {
+    console.log(lista[i])
+}
+
+
+Estructura For...of:
+
+for (let valor of lista) {
+    console.log(valor)
+}
+
+
+Estructura forEach:
+
+lista.forEach(valor => {
+    console.log(valor)
+})
+
+Estructura for...In:
+
+let persona = {
+    nombre: "Pablo",
+    apellido: "Juarez",
+    edad: 54,
+    isCarpintero: true
+}
+let prop = "edad";
+console.log(persona[prop]) // 54
+
+for (let propiedad in persona) {
+    console.log(propiedad); // nombre, apellido, edad, isCarpintero
+    console.log(persona[propiedad]) // Pablo, Juarez, 54, true
+}
+
+
+Bucles while:
+    While
+    Do while
+
+let i = 0;
+let max = 10;
+while (i < max) {
+    console.log(i);
+    i++; // Se realiza una actualizacion de la variable dentro del bucle para que se ejecute
+}
+
+Do...while
+i = 0
+do {
+    i++;
+} while (i < max)
+// Es otra forma de hacer el codigo pero sin teclear tanto
+
+Otro ejemplo:
+i = 15;
+
+do {
+    console.log ("Estoy en el do while")
+} while (i < max)

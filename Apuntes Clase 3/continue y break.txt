@@ -1,0 +1,32 @@
+
+
+Casos especificos de uso de break, continue
+
+Break:
+
+let lista = [1, 2, 3, 4, 5, 6 , 7 , 8]
+
+for (let i = 0; i < lista.length; i++) {
+    if (lista[i] === 3) {
+        continue; // Lo que hace es volver arriba
+    }
+    let j = 50;
+    const k = 100;
+    console.log(k) // 100, 100, 100, 100, 100
+    console.log(lista[i]); // 1, 2, 4, 5, 6
+
+    if (lista [i] > 5) {
+        break; // Lo que hace es cortar lo que es el bucle
+    }
+}
+
+
+
+
+
+Ambito de un bucle:
+Se refiere al alcance que tiene una variable declarada en un bucle 
+
+console.log(j); // 50. Esto pasa porque si se puede declarar un let fuera de un bucle
+console.log(k); // k no está definida. Esto pasa porque no se puede declarar una const fuera de un bucle
+

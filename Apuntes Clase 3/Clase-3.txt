@@ -1,0 +1,29 @@
+
+
+Estructuras de control: Metodologia que permite manejar todo nuestro codigo con mayor facilidad.
+Se usan bifurcaciones y bucles
+
+
+Las bifurcaciones nos permiten ir para cierto rumbo dandonos 2 opciones o más
+Usamos if else
+
+
+El Switch refactoriza todo el codigo.
+Nos permite poner en un mismo valor varias condiciones
+Siempre que usamos este operador se utiliza un break para que no se ejecute todo a la vez
+
+
+Comparaciones: Comparan valores usando if else (igualdad).
+    == igualdad debil
+    === igualdad fuerte
+Con el === se comprueba el valor con el tipo
+
+<= Menor o igual
+>= Mayor o igual
+
+
+Bucles: En resumen seria una repeticion de codigo siempre que se cumplan ciertas condiciones
+For: Son los más utilizados
+While
+
+Ambito de bucle
