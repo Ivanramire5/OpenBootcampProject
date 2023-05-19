@@ -1,0 +1,52 @@
+
+
+let input = "Acuario"
+let db = "acuario"
+
+console.log(input === db) // false
+
+Se haria de esta forma para manipular el texto
+
+console.log(input.toLowerCase() === db.toLowerCase()) // true
+console.log(input.toLowerCase()) // acuario
+console.log(input.toUpperCase()) // ACUARIO
+
+
+Formas de concatenar 2 cadenas de caracteres
+
+
+let str-1 = "Hola soy la primera cadena"
+let str-2 = "Hola soy la segunda cadena"
+
+// Formas de hacerlo 
+
+console.log(str-1.concat(" ", str-2)) // Este metodo es una mejor practica
+console.log(str-1 + " " + str-2)
+console.log(`${str-1} ${str-2}`)
+
+// Eliminar espacios al inicio y al final
+
+let str-3 = "Hola soy un string con espacios al final.   "
+
+console.log(str-3.length) // 44
+console.log(str-3.trim().length) // 41
+
+let str-3 = "   Hola soy un string con espacios al principio."
+
+console.log(str-3.trimStart().length) // 41
+
+// Obtener el caracter en cierta posicion
+
+
+let str-4 = "Hola soy el 4to string" 
+
+console.log(str-4.cartAt(5)) // s
+console.log(str-4[5]) // s
+
+// Obtener la palabra dentro de una cadena de caracteres
+
+let str-5 = "Hola soy un 5to string"
+
+console.log(str-5.indexOf("string")) // 13 /// Nos devuelve la primera letra del caracter
+console.log(str-5.charAt(9)) // s
+console.log(str-5.LastIndexOf("string")) // Nos pasa la ultima instancia en donde se encuentra una palabra

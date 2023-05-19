@@ -1,0 +1,18 @@
+
+
+let texto-largo = "Pablito clavó un clavito, ¿qué clavito clavó Pablito?, el clavito que Pablito clavó, era el clavito de Pablito"
+
+console.log(texto-largo.match(/clavito/g)) // 4 [ "clavito", "clavito", "clavito", "clavito"]
+
+console.log(texto-largo.includes("clavito")) // true
+console.log(texto-largo.includes("terremoto")) // false
+
+
+// Saber si un texto comienza con una palabra
+
+console.log(texto-largo.startsWith("arboles")) // false
+
+// Saber si un texto termina con una palabra
+
+console.log(texto-largo.endsWith("Pablito")) // true
+

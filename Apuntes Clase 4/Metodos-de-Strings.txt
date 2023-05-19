@@ -1,0 +1,28 @@
+
+longitud:
+
+let str = "Hola, soy un String";
+console.log(str.length) // 18
+
+
+Obtener partes de un String: slice() substring() substr()
+
+let slice_str = str.slice(5, 10) // Nos devuelve una seccion del string
+console.log(slice_str) // soy u
+
+Las 3 funciones hacen practicamente lo mismo
+
+
+Reemplazar contenido de una cadena de texto
+
+let cadena = "Hola me llamo Iván"
+
+cadena.replace('Iván', 'Nico')
+console.log(cadena.replace('Iván', 'Nico')) // Hola me llamo Nico
+
+Se puede usar para textos de todo tipo de longitud.
+Para eso habria que indicar todos los valores se usan las expresiones regulares
+Su uso es para parrafos u oraciones que tienen una palabra más de 1 vez
+Estas serian usando un global:
+
+console.log(cadena.replace(/Iván/g, 'Manuel'))

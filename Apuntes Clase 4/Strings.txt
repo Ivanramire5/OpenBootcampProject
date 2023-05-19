@@ -1,0 +1,36 @@
+
+String doble:
+
+let str = "Hola, soy un texto";
+
+String simple:
+
+let str = 'Hola, soy un texto';
+
+Cualquier String se puede hacer con cadenas dobles o simples. Lo importante es respetar las comillas
+
+
+String entre 2 comillas:
+
+let strComillas = 'El otro dia me dijo "saca la basura"'
+
+
+Comillas invertidas :
+
+let strBackticks = `Este es un string con comillas invertidas`
+
+Estas comillas sirven para poder manipular lo que es una variable introduciendola. Ejemplo
+
+let nombre = "José"
+let string = `Hola, ${nombre} bienvenido`
+
+
+Se pueden utilizar como plantillas HTML
+
+let plantilla = `
+<html>
+    <h1>Pagina web de ${nombre}</h1>
+    <p>Este es un parrafo</p>
+</html>
+`;
+

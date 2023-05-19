@@ -1,0 +1,27 @@
+
+var contenidDeLaClase = {
+    Lo que vemos en este modulo = [
+        Strings,
+        Metodos de Strings,
+        Manipulacion de cadenas de texto,
+        Expresiones regulares y busqueda de cadenas
+    ]
+}
+
+
+Los Strings son variables de texto
+
+
+Metodos mas utilizados de Strings
+
+Uno de los más comunes es como obtener longitud de String (str.length)
+
+
+En la manipulacion de cadenas se utiliza toLowerCase y toUpperCase.
+Las dos se usan para comparar
+toLowerCase convierte todo en minusculas
+toUpperCase convierte todo en mayusculas
+
+Los metodos de cadenas de texto se utilizan mediante expresiones regulares.
+Nos permiten buscar multiples instancias de un texto
+Sitio web de ayuda con esto//https.//regexr.com
