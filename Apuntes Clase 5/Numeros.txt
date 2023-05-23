@@ -1,0 +1,23 @@
+
+Declaracion de variables numericas:
+
+Let a = 5;
+console.log(a); // 5
+
+
+Decimales:
+
+let b = 0.1;
+console.log(b);
+
+
+Precision:
+
+let c = 0.2;
+console.log(b +  c); // 0.300000000000004
+// Esto pasa por como está almacenado el dato en memoria (bytes)
+
+
+// Truco para obtener correctamente el valor 0.3 (o cualquier decimal)
+
+Math.round(((0.1 + 0.2) * 100)/100) // 0.3

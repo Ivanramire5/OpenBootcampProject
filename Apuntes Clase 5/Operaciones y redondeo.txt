@@ -1,0 +1,39 @@
+Principales operaciones aritmeticas
+
+let a = 3.5;
+let b = 4.8;
+
+// Suma (+)
+console.log(a + b); // 8.3
+
+// Resta (-)
+console.log(a - b); // -1.299999
+
+// Multiplicacion (*)
+console.log(a * b); // 16.8
+
+// Division (/)
+console.log(a / b); // 0.7291666666667
+
+
+Representacion de los numeros en cadenas de texto
+
+console.log(typeof a) // number
+let a_s = a.toString()
+console.log(typeof a_s) // string 
+
+
+Como redondear numeros Decimales
+
+let c = 3.3;
+let d = c * 3;
+
+console.log(d) // 9.8999999999999
+// .toFixed()
+console.log(d.toFixed(0)); 9 // se usa para mencionar los numeros decimales que queremos tener
+// El .toFixed convierte el valor en un string
+let e = 1839.123456789;
+console.log(e.toFixed(2)); // 1839.12
+
+// .toPrecision(x) - Limita el numero de cifras significativas
+console.log(e.toPrecision(5)) // 1839.1

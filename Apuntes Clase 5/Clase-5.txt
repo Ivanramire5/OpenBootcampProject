@@ -1,0 +1,16 @@
+
+Esta clase es para entender el comportamiento de los numeros en JS
+
+Contenidos del modulo = {
+    numeros,
+    operaciones,
+    metodos de numeros y limites en JS
+},
+
+El operador typeof devuelve una cadena que indica el tipo del operando sin evaluarlo.
+El método toFixed() formatea un número usando notación de punto fijo.
+
+.toPrecision lo que hace es limitar el numero de decimales al valor que le asignemos
+Realiza un redondeo cientifico
+
+Los numeros hexadecimales se utilizan mucho en lo que es el almacenamiento de memoria en bytes (base 16)

@@ -1,0 +1,64 @@
+//Operador .valueOf() - Obtener valores numericos a partir de literales
+
+let a = 2;
+let b = new Number(3); // Nos permite iniciar de forma numerica un valor
+
+console.log(a); // 2
+console.log(b); // Number 3 {}
+
+console.log(b.valueOf()); 3 // Lo imprime como un 3 y no como un tipo value
+
+
+// NaN
+
+let n = Number("adios")
+
+console.log(n); // NaN 
+console.log(isNaN(n)); true
+
+
+// Infinity
+
+let numerador = 19;
+let divisor = 0;
+
+console.log(numerador / divisor); // Infinity
+
+
+//Como convertir strings a valores numericos con Number, parseInt y parseFloat
+
+let numero = "5.89";
+let num2 = 17.2;
+
+console.log(typeof numero); // string
+console.log(numero + num2); // Error de concepto => 5.8917.2
+
+console.log(Number(numero) + num2) // 23.09 => Nos permite transformar un string a un numero
+
+// parseInt y parseFloat
+
+console.log(parseInt(numero)); 5 // numero entero
+
+console.log(parseFloat(numero)); 5.89 // numero con decimales
+
+
+// Numeros hexadecimales (base 16)
+
+let numHex = "0x3a5b7";
+
+console.log(parseInt(numHex)); 239031
+
+// Para convertirlo en un mumero decimales
+
+console.log(parseInt(numHex * 6)); 1434186
+
+
+// Obtener valores maximo y minimo
+
+let min_precision = Number.EPSILON;
+let min_valor_JS = Number.MIN_VALUE;
+let max_valor_JS = Number.MAX_VALUE;
+
+console.log(min_precision); 2.2204460e-16
+console.log(min_valor_JS); 5e-324
+console.log(max_valor_JS); 1.779769e+308
