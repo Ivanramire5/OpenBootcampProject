@@ -1,0 +1,11 @@
+
+Contenidos de este modulo = {
+    Listas y metodos de mutacion,
+    Concatenacion y obtencion de fragmentos de listas,
+    Metodos de iteracion en listas,
+    Metodos avanzados, obtencion de listas a partir de listas,
+    Ordenacion de listas y comparacion entre listas,
+    Identificacion de existencia de valor en un array y objetos iterables
+},
+
+

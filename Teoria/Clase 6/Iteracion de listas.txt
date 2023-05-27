@@ -1,0 +1,68 @@
+
+// Iterar los valores de una listas
+
+const array = ["holis", 2, 5, 90, false, undefined]
+
+// Forma antigua y poco eficiente
+
+for (let i = 0; i < array.length; i++) {
+    console.log(array[i])
+}
+
+// Forma más moderna y eficiente. ES6 .forEach()
+
+let suma = 0;
+const = arrayNums = [3, 6, 7, 9, 77, 93]
+arrayNums.forEach(valor => {
+    suma += valor;
+    console.log(valor)
+})
+console.log(suma)
+
+
+// Buscar un valor dentro de una lista .find()
+// Quiero encontrar el elemento 90 del array
+const variable = array.find(valor => {
+    if (valor === 90) {
+        return true
+    }
+})
+console.log(variable)
+
+const listaObjetos = [
+    { nombre: "Leire", edad: 35 },
+    { nombre: "Gorka", edad: 34 },
+    { nombre: "Miguel", edad: 28 },
+    { nombre: "Lucia", edad: 3 },
+    { nombre: "Amaia", edad: 29 }
+]
+
+const objeto = listaObjetos.find(o => {
+    if (o.nombre === "Miguel" ) {
+        return true
+    }
+})
+console.log(objeto.edad)
+
+
+// Forma de simplificar la constante listaObjetos
+
+
+const objeto = listaObjetos.find(o => {
+    return o.nombre === "Miguel"
+})
+console.log(objeto.edad)
+
+
+// Se puede simplificar todavia más
+
+
+const objeto = listaObjetos.find(o => o.nombre === "Miguel")
+console.log(objeto.edad)
+
+
+// Otra forma más eficiente
+
+
+const { edad } = listaObjetos.find(o => o.nombre === "Miguel")
+console.log(edad)

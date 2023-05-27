@@ -1,0 +1,58 @@
+
+// Metodos más avanzados
+// .map() .filter() .reduce()
+
+const array = ["Berlin", "Madrid", "Buenos Aires", "Bilbao", "Barcelona"]
+
+const val = array.forEach(v => {
+    console.log(v)
+})
+console.log(val) // No devuelve nada hagamos lo que hagamos
+
+
+// Si queremos retornar un array modificando valores
+
+const newArray = array.map((valor, indice) => {
+    console.log(indice) // 0, 1, 2, 3, 4
+    return `${indice + 1} - ${valor}`
+})
+console.log(newArray)
+
+const listaObjetos = [
+    { nombre: "Leire", edad: 35 },
+    { nombre: "Gorka", edad: 34 },
+    { nombre: "Miguel", edad: 28 },
+    { nombre: "Lucia", edad: 3 },
+    { nombre: "Amaia", edad: 29 }
+]
+const personasMayores = listaObjetos.filter(obj => {
+    if(obj.edad > 30) {
+        return true
+    } else {
+        return false
+    }
+})
+console.log(personasMayores)
+
+// Una forma más sencilla de hacerlo
+
+const personasMayores = listaObjetos.filter(obj => obj.edad > 30)
+console.log(personasMayores)
+
+// Crear nuevos objetos a una lista establecida
+
+const nuevaLista = listaObjetos.filter(obj => obj.nombre !== "Miguel")
+console.log(nuevaLista)
+
+
+// Metodo reduce. Sirve para obtener algo mediante una lista
+
+const valores = [3, 56, 23, 5, 90, 100]
+
+const suma = valores.reduce((acumulado, cur, i, arrayOriginal) => {
+    console.log(acumulado) // 3, undefined, undefined, undefined, undefined, undefined
+    console.log(cur) // 3, 56, 23, 5, 90, 100
+    console.log(i) // 1, 2, 3, 4, 5
+    console.log(arrayOriginal) //
+    return acumulado + cur
+})
